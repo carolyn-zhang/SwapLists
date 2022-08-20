@@ -1,0 +1,13 @@
+
+.list-area{
+    background-color:white;
+    height: 50%;
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
+    flex-grow: 5;
+    overflow: scroll;
+    color: black;
+    padding: 5px;
+}
+

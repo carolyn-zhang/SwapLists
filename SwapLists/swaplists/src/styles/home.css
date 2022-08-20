@@ -1,0 +1,97 @@
+
+.flex-container-main{
+    color: #943261;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+    padding: 25px;
+}
+
+.bottom-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 25px; */
+    flex-grow: 3;
+}
+
+.username-display{
+    display: flex;
+    flex-direction: row;
+}
+
+.logout-button, .enter-button{
+    margin-left: 10px;
+}
+
+.color-picker{
+    width: 60%;
+    display: flex;
+}
+
+.flex-child-colors{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    flex: 1;
+}
+.flex-child-colors:hover{
+    opacity: 70%;
+}
+
+.all-lists{
+    width: 80vw;
+    padding: 20px;
+    height: 70vh;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-between;
+    overflow-y: scroll;
+}
+
+.listcard-padding{
+    padding-bottom: 1.5vh;
+}
+
+input{
+    background-color: whitesmoke;
+    font-size: 28px;
+    padding: 5px;
+    border-color: #943261;
+    border-width: 4px;
+    border-radius: 15px;
+  }
+  
+  textarea {
+    border: 2px solid #943261;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 28px;
+    border-radius: 10px;
+    width: 50vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background-color: #f9e4eb;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  

@@ -1,0 +1,23 @@
+
+.wrapper {
+    border: 3px solid;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    color: #943261;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: #943261;
+    color: #fff5f8;
+}
+
+.input-padding{
+    padding-bottom: 10vh;
+}
